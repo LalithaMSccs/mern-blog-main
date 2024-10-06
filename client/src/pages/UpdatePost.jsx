@@ -130,9 +130,60 @@ export default function UpdatePost() {
             value={formData.category}
           >
             <option value='uncategorized'>Select a category</option>
-            <option value='javascript'>JavaScript</option>
-            <option value='reactjs'>React.js</option>
-            <option value='nextjs'>Next.js</option>
+            {/* Full Stack Development */}
+  <option value='frontend'>Frontend Development</option>
+  <option value='backend'>Backend Development</option>
+  <option value='database'>Databases</option>
+  <option value='devops'>DevOps</option>
+  <option value='api'>API Development</option>
+  
+  {/* Specific Technologies */}
+  <option value='javascript'>JavaScript</option>
+  <option value='python'>Python</option>
+  <option value='java'>Java</option>
+  <option value='csharp'>C#</option>
+  <option value='php'>PHP</option>
+  <option value='reactjs'>React.js</option>
+  <option value='angular'>Angular</option>
+  <option value='vuejs'>Vue.js</option>
+  <option value='nodejs'>Node.js</option>
+  <option value='express'>Express.js</option>
+  <option value='django'>Django</option>
+  <option value='flask'>Flask</option>
+  <option value='springboot'>Spring Boot</option>
+  
+  {/* Data Science */}
+  <option value='datascience'>Data Science</option>
+  <option value='machinelearning'>Machine Learning</option>
+  <option value='deeplearning'>Deep Learning</option>
+  <option value='nlp'>Natural Language Processing</option>
+  <option value='computervision'>Computer Vision</option>
+  <option value='dataanalysis'>Data Analysis</option>
+  <option value='datavisualization'>Data Visualization</option>
+  <option value='bigdata'>Big Data</option>
+  <option value='statistics'>Statistics</option>
+  
+  {/* Tools and Frameworks */}
+  <option value='tensorflow'>TensorFlow</option>
+  <option value='pytorch'>PyTorch</option>
+  <option value='scikitlearn'>Scikit-learn</option>
+  <option value='pandas'>Pandas</option>
+  <option value='numpy'>NumPy</option>
+  <option value='tableau'>Tableau</option>
+  <option value='powerbi'>Power BI</option>
+  
+  {/* Cloud Platforms */}
+  <option value='aws'>AWS</option>
+  <option value='azure'>Azure</option>
+  <option value='gcp'>Google Cloud Platform</option>
+  
+  {/* Other */}
+  <option value='webdev'>Web Development</option>
+  <option value='mobiledev'>Mobile Development</option>
+  <option value='security'>Cybersecurity</option>
+  <option value='blockchain'>Blockchain</option>
+  <option value='iot'>Internet of Things</option>
+
           </Select>
         </div>
         <div className='flex gap-4 items-center justify-between border-4 border-teal-500 border-dotted p-3'>
